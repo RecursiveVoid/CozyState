@@ -1,7 +1,8 @@
-import { Action } from "./Action";
+import { Action } from './Action';
 
 interface Transition {
-  action: Action; 
+  action: Action;
+  trigger: Action; // or event
   from: string;
   to: string;
 }

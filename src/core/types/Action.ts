@@ -1,4 +1,3 @@
 type Action = (() => any) | (() => any)[];
 
-
-export { Action }
+export { Action };

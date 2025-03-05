@@ -1,7 +1,7 @@
-import { Action } from "../Action";
+import { Action } from "./Action";
 
 interface Transition {
-  action: () => void | Action; 
+  action: Action; 
   from: string;
   to: string;
 }
